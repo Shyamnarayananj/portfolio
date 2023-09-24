@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block projectsactive %} active {% endblock projectsactive %}
+{% block title %} Projects {% endblock title %}
+{% block body %}
+        <div class="container">
+            <h2 class="text-center my-3 py-3">
+             Projects
+            </h2>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://source.unsplash.com/500x300/?os,html" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Designer</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                      content.</p>
+                    <a href="#" class="btn btn-primary">Click to Demo</a>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://source.unsplash.com/500x300/?code,python" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Developer</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                      content.</p>
+                    <a href="#" class="btn btn-primary">Click to Demo</a>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="https://source.unsplash.com/500x300/?css" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Co-ordinator</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                      content.</p>
+                    <a href="#" class="btn btn-primary">Click to Demo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         {% endblock body %}
